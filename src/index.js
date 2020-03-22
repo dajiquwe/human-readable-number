@@ -26,5 +26,5 @@ module.exports = function toReadable (number) {
       result = result + less20[parseInt(number%10)];  
     }
    
-   return result;
+   return result.trim();
 }
